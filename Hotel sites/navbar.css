@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100vw;
+}
 
 a {
     text-decoration: none;
@@ -36,6 +39,7 @@ a {
     position: sticky;
     color: #323232;
     padding: 0.2rem;
+    font-size: 1.2rem;
     margin: 1vw;
     align-items: center;
 }
@@ -82,7 +86,8 @@ li {
     background: #fff;
     color: #000000;
     padding-bottom: 2rem;
-    font-size: 22x;
+    font-size: 20x;
+    margin: auto;
 }
 
 #main-footer img {
@@ -112,7 +117,7 @@ hr {
     border: -1.5px solid #323232;
 }
 
-#main-footer .footercontainer i {
+#main-footer i {
     color: #323232;
     background: #fff;
     padding-left: 0.5rem;
